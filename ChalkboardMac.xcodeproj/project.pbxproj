@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03187BEC10B7770D0091345B /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BC810B7770D0091345B /* Expression.cpp */; };
+		03187BED10B7770D0091345B /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BCA10B7770D0091345B /* Function.cpp */; };
+		03187BEE10B7770D0091345B /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BCC10B7770D0091345B /* Math.cpp */; };
+		03187BEF10B7770D0091345B /* MathVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BCE10B7770D0091345B /* MathVector.cpp */; };
+		03187BF010B7770D0091345B /* Operation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BD010B7770D0091345B /* Operation.cpp */; };
+		03187BF110B7770D0091345B /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BD210B7770D0091345B /* Parser.cpp */; };
+		03187BF210B7770D0091345B /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BD410B7770D0091345B /* Program.cpp */; };
+		03187BF310B7770D0091345B /* Quat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BD610B7770D0091345B /* Quat.cpp */; };
+		03187BF410B7770D0091345B /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BD810B7770D0091345B /* Range.cpp */; };
+		03187BF510B7770D0091345B /* RotationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BDA10B7770D0091345B /* RotationMatrix.cpp */; };
+		03187BF610B7770D0091345B /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BDC10B7770D0091345B /* Utility.cpp */; };
+		03187BF710B7770D0091345B /* Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187BDE10B7770D0091345B /* Variable.cpp */; };
+		03187C0910B777C90091345B /* Keyword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187C0710B777C90091345B /* Keyword.cpp */; };
+		03187C0E10B777F60091345B /* Process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03187C0C10B777F60091345B /* Process.cpp */; };
+		03187C5C10B77C870091345B /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03187C5A10B77C870091345B /* CalcController.m */; };
+		03187D9C10B7AA5B0091345B /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03187D9B10B7AA5B0091345B /* Icon.icns */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* ChalkboardMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ChalkboardMacAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03187BC810B7770D0091345B /* Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Expression.cpp; path = Talc/Expression.cpp; sourceTree = SOURCE_ROOT; };
+		03187BC910B7770D0091345B /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = Talc/Expression.h; sourceTree = SOURCE_ROOT; };
+		03187BCA10B7770D0091345B /* Function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Function.cpp; path = Talc/Function.cpp; sourceTree = SOURCE_ROOT; };
+		03187BCB10B7770D0091345B /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Function.h; path = Talc/Function.h; sourceTree = SOURCE_ROOT; };
+		03187BCC10B7770D0091345B /* Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Math.cpp; path = Talc/Math.cpp; sourceTree = SOURCE_ROOT; };
+		03187BCD10B7770D0091345B /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math.h; path = Talc/Math.h; sourceTree = SOURCE_ROOT; };
+		03187BCE10B7770D0091345B /* MathVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MathVector.cpp; path = Talc/MathVector.cpp; sourceTree = SOURCE_ROOT; };
+		03187BCF10B7770D0091345B /* MathVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathVector.h; path = Talc/MathVector.h; sourceTree = SOURCE_ROOT; };
+		03187BD010B7770D0091345B /* Operation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Operation.cpp; path = Talc/Operation.cpp; sourceTree = SOURCE_ROOT; };
+		03187BD110B7770D0091345B /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = Talc/Operation.h; sourceTree = SOURCE_ROOT; };
+		03187BD210B7770D0091345B /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Parser.cpp; path = Talc/Parser.cpp; sourceTree = SOURCE_ROOT; };
+		03187BD310B7770D0091345B /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Parser.h; path = Talc/Parser.h; sourceTree = SOURCE_ROOT; };
+		03187BD410B7770D0091345B /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Program.cpp; path = Talc/Program.cpp; sourceTree = SOURCE_ROOT; };
+		03187BD510B7770D0091345B /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Program.h; path = Talc/Program.h; sourceTree = SOURCE_ROOT; };
+		03187BD610B7770D0091345B /* Quat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Quat.cpp; path = Talc/Quat.cpp; sourceTree = SOURCE_ROOT; };
+		03187BD710B7770D0091345B /* Quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Quat.h; path = Talc/Quat.h; sourceTree = SOURCE_ROOT; };
+		03187BD810B7770D0091345B /* Range.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Range.cpp; path = Talc/Range.cpp; sourceTree = SOURCE_ROOT; };
+		03187BD910B7770D0091345B /* Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Range.h; path = Talc/Range.h; sourceTree = SOURCE_ROOT; };
+		03187BDA10B7770D0091345B /* RotationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RotationMatrix.cpp; path = Talc/RotationMatrix.cpp; sourceTree = SOURCE_ROOT; };
+		03187BDB10B7770D0091345B /* RotationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RotationMatrix.h; path = Talc/RotationMatrix.h; sourceTree = SOURCE_ROOT; };
+		03187BDC10B7770D0091345B /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Utility.cpp; path = Talc/Utility.cpp; sourceTree = SOURCE_ROOT; };
+		03187BDD10B7770D0091345B /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Talc/Utility.h; sourceTree = SOURCE_ROOT; };
+		03187BDE10B7770D0091345B /* Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Variable.cpp; path = Talc/Variable.cpp; sourceTree = SOURCE_ROOT; };
+		03187BDF10B7770D0091345B /* Variable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Variable.h; path = Talc/Variable.h; sourceTree = SOURCE_ROOT; };
+		03187C0710B777C90091345B /* Keyword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Keyword.cpp; path = Talc/Keyword.cpp; sourceTree = SOURCE_ROOT; };
+		03187C0810B777C90091345B /* Keyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keyword.h; path = Talc/Keyword.h; sourceTree = SOURCE_ROOT; };
+		03187C0C10B777F60091345B /* Process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Process.cpp; path = Talc/Process.cpp; sourceTree = SOURCE_ROOT; };
+		03187C0D10B777F60091345B /* Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Process.h; path = Talc/Process.h; sourceTree = SOURCE_ROOT; };
+		03187C5A10B77C870091345B /* CalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcController.m; path = GUI/CalcController.m; sourceTree = "<group>"; };
+		03187C5B10B77C870091345B /* CalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcController.h; path = GUI/CalcController.h; sourceTree = "<group>"; };
+		03187D9B10B7AA5B0091345B /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = SOURCE_ROOT; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ChalkboardMacAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChalkboardMacAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ChalkboardMacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChalkboardMacAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ChalkboardMac_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChalkboardMac_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* ChalkboardMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChalkboardMac-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ChalkboardMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalkboardMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03187BAF10B7770D0091345B /* Talc */ = {
+			isa = PBXGroup;
+			children = (
+				03187C0C10B777F60091345B /* Process.cpp */,
+				03187C0D10B777F60091345B /* Process.h */,
+				03187C0710B777C90091345B /* Keyword.cpp */,
+				03187C0810B777C90091345B /* Keyword.h */,
+				03187BC810B7770D0091345B /* Expression.cpp */,
+				03187BC910B7770D0091345B /* Expression.h */,
+				03187BCA10B7770D0091345B /* Function.cpp */,
+				03187BCB10B7770D0091345B /* Function.h */,
+				03187BCC10B7770D0091345B /* Math.cpp */,
+				03187BCD10B7770D0091345B /* Math.h */,
+				03187BCE10B7770D0091345B /* MathVector.cpp */,
+				03187BCF10B7770D0091345B /* MathVector.h */,
+				03187BD010B7770D0091345B /* Operation.cpp */,
+				03187BD110B7770D0091345B /* Operation.h */,
+				03187BD210B7770D0091345B /* Parser.cpp */,
+				03187BD310B7770D0091345B /* Parser.h */,
+				03187BD410B7770D0091345B /* Program.cpp */,
+				03187BD510B7770D0091345B /* Program.h */,
+				03187BD610B7770D0091345B /* Quat.cpp */,
+				03187BD710B7770D0091345B /* Quat.h */,
+				03187BD810B7770D0091345B /* Range.cpp */,
+				03187BD910B7770D0091345B /* Range.h */,
+				03187BDA10B7770D0091345B /* RotationMatrix.cpp */,
+				03187BDB10B7770D0091345B /* RotationMatrix.h */,
+				03187BDC10B7770D0091345B /* Utility.cpp */,
+				03187BDD10B7770D0091345B /* Utility.h */,
+				03187BDE10B7770D0091345B /* Variable.cpp */,
+				03187BDF10B7770D0091345B /* Variable.h */,
+			);
+			path = Talc;
+			sourceTree = SOURCE_ROOT;
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ChalkboardMacAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ChalkboardMacAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ChalkboardMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ChalkboardMac */ = {
+			isa = PBXGroup;
+			children = (
+				03187D9B10B7AA5B0091345B /* Icon.icns */,
+				03187BAF10B7770D0091345B /* Talc */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				03187C5A10B77C870091345B /* CalcController.m */,
+				03187C5B10B77C870091345B /* CalcController.h */,
+			);
+			name = ChalkboardMac;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* ChalkboardMac_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* ChalkboardMac-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ChalkboardMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ChalkboardMac" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChalkboardMac;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ChalkboardMac;
+			productReference = 8D1107320486CEB800E47090 /* ChalkboardMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChalkboardMac" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ChalkboardMac */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ChalkboardMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				03187D9C10B7AA5B0091345B /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ChalkboardMacAppDelegate.m in Sources */,
+				03187BEC10B7770D0091345B /* Expression.cpp in Sources */,
+				03187BED10B7770D0091345B /* Function.cpp in Sources */,
+				03187BEE10B7770D0091345B /* Math.cpp in Sources */,
+				03187BEF10B7770D0091345B /* MathVector.cpp in Sources */,
+				03187BF010B7770D0091345B /* Operation.cpp in Sources */,
+				03187BF110B7770D0091345B /* Parser.cpp in Sources */,
+				03187BF210B7770D0091345B /* Program.cpp in Sources */,
+				03187BF310B7770D0091345B /* Quat.cpp in Sources */,
+				03187BF410B7770D0091345B /* Range.cpp in Sources */,
+				03187BF510B7770D0091345B /* RotationMatrix.cpp in Sources */,
+				03187BF610B7770D0091345B /* Utility.cpp in Sources */,
+				03187BF710B7770D0091345B /* Variable.cpp in Sources */,
+				03187C0910B777C90091345B /* Keyword.cpp in Sources */,
+				03187C0E10B777F60091345B /* Process.cpp in Sources */,
+				03187C5C10B77C870091345B /* CalcController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChalkboardMac_Prefix.pch;
+				INFOPLIST_FILE = "ChalkboardMac-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ChalkboardMac;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChalkboardMac_Prefix.pch;
+				INFOPLIST_FILE = "ChalkboardMac-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ChalkboardMac;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ChalkboardMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChalkboardMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

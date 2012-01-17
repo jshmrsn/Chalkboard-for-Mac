@@ -1,0 +1,6 @@
+An OS X port of my first iOS app, a streamlined scripting language simple enough to be used as a metaphorical chalkboard for jotting down quick math problems, like calculating the MPG of your car.
+
+
+NOTES:
+Within the source, "Talc" refers to the underlying language, while "Chalkboard" is the app itself.
+While the app is operational, some sections of the code haven't been ported to OS X yet, and are simply commented out.
